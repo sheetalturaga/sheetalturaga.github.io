@@ -58,6 +58,11 @@
     font-family: "Josefin Sans", sans-serif;
   }
 
+  p {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
   .intro-content {
     display: flex;
     flex-direction: column;
@@ -120,11 +125,19 @@
 
   h1 {
     color: white;
+    font-size: 60px;
     font-family: "Josefin Sans", sans-serif;
   }
 
   h3 {
     color: white;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  p {
+    color: white;
+    font-size: 20px;
     font-family: "Josefin Sans", sans-serif;
   }
 
