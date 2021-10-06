@@ -38,6 +38,22 @@ img {
   width: 100%;
 }
 
+h3 {
+  color: blueviolet;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  color: blue;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 @media screen and (max-width: 850px) {
   .project-block {
     width: 100%;
@@ -78,5 +94,21 @@ img {
 
   .name-logo {
     font-size: 1rem;
+  }
+
+  h3 {
+    color: blueviolet;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  p {
+    color: blue;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Josefin Sans", sans-serif;
   }
 }
