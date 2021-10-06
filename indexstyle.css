@@ -3,9 +3,9 @@
 @media screen and (min-width: 851px) {
   .navbar {
     display: flex;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     position: sticky;
-    height: 100px;
+    height: 15vh;
     width: 100%;
     background-color: #6871fa;
     color: white;
@@ -48,28 +48,34 @@
     border-radius: 0;
   }
 
-  h1 {
-    color: white;
-    font-family: "Josefin Sans", sans-serif;
-  }
-
-  h3 {
-    color: white;
-    font-family: "Josefin Sans", sans-serif;
-  }
-
+  h1,
+  h3,
   p {
-    color: white;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
     font-family: "Josefin Sans", sans-serif;
+    align-items: center;
+    justify-content: center;
   }
 
   .intro-content {
+    margin: 0;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
 
-    /* background-color: yellowgreen; */
+  .intro-page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
   }
 }
 
@@ -92,7 +98,7 @@
     color: white;
     font-family: "Josefin Sans", sans-serif;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   li,
@@ -115,7 +121,7 @@
   }
 
   .name-logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   body {
@@ -123,36 +129,109 @@
     background-color: #585a7a;
   }
 
-  h1 {
-    color: white;
-    font-size: 60px;
-    font-family: "Josefin Sans", sans-serif;
-  }
-
-  h3 {
-    color: white;
-    font-size: 40px;
-    font-family: "Josefin Sans", sans-serif;
-  }
-
+  h1,
+  h3,
   p {
-    color: white;
-    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
     font-family: "Josefin Sans", sans-serif;
+    align-items: center;
+    justify-content: center;
   }
 
   .intro-content {
+    margin: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     /* background-color: yellow; */
   }
 
   .intro-page {
     display: flex;
-    /* flex-direction: row; */
+    text-align: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  ul {
+    display: flex;
+    height: 30vh;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .navbar {
+    width: 20vw;
+    padding: 1rem;
+    min-height: 100vh;
+    height: auto;
+    background-color: #6871fa;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  li,
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+  }
+
+  a:hover {
+    transform: scale(1.25);
+    color: #303f7a;
+  }
+
+  .name-logo {
+    font-size: 1.2rem;
+  }
+
+  body {
+    font-size: 10px;
+    background-color: #585a7a;
+  }
+
+  h1,
+  h3,
+  p {
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro-content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: yellow;
+  }
+
+  .intro-page {
+    display: flex;
+    text-align: center;
     justify-content: space-between;
     padding: 1rem;
   }
